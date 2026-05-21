@@ -1,8 +1,19 @@
 # Priyanshu Bisht Portfolio
 
-A modern developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
+Personal developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
 
-The site is designed to feel clean, premium, fast, and trustworthy, with a stronger focus on real engineering presentation than flashy landing-page effects.
+This project presents my work as a Full Stack Developer, with a stronger focus on backend systems, authentication flows, database-driven applications, and production-oriented MERN development.
+
+## About
+
+The portfolio highlights:
+
+- my profile and technical focus
+- education and academic background
+- full stack and backend development skills
+- featured projects including AshaPure and TableForge
+- coding achievements and technical interests
+- contact and resume links
 
 ## Tech Stack
 
@@ -12,67 +23,71 @@ The site is designed to feel clean, premium, fast, and trustworthy, with a stron
 - Framer Motion
 - Lucide React
 
-## Project Structure
+## Sections
 
-```text
-.
-|-- public/
-|   |-- project-ashapure.svg
-|   `-- project-tableforge.svg
-|-- src/
-|   |-- App.jsx             # main portfolio content and sections
-|   |-- main.jsx            # React entry point
-|   `-- styles.css          # global styles and Tailwind component layer
-|-- index.html              # app shell and SEO metadata
-|-- package.json
-`-- vite.config.mjs
-```
+- Hero
+- About
+- Education
+- Skills
+- Projects
+- Achievements
+- Interests
+- Contact
 
-## Getting Started
+## Featured Projects
 
-### Install dependencies
+### AshaPure
+
+Smart milk delivery platform built with the MERN stack.
+
+Highlights:
+
+- subscription management
+- vendor operations
+- JWT authentication
+- role-based access control
+- backend-oriented workflow structure
+
+### TableForge
+
+Spreadsheet-style database management dashboard built for CRUD workflows and administrative efficiency.
+
+Highlights:
+
+- structured data handling
+- record management
+- integrity-focused workflows
+- admin-oriented interface design
+
+## Development
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Start the development server
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-### Create a production build
+Build for production:
 
 ```bash
 npm run build
 ```
 
-### Preview the production build locally
+Preview the production build:
 
 ```bash
 npm run preview
 ```
 
-## What To Customize
+## Contact
 
-Update the placeholder profile links in `src/App.jsx`:
-
-- `resume`
-- `github`
-- `linkedin`
-- `email`
-
-The portfolio is already wired with Priyanshu Bisht's production links for:
-
-- email
-- GitHub
-- LinkedIn
-- resume view/download
-
-## Notes
-
-- The project uses lightweight motion only for section reveals and hover polish.
-- The featured project visuals are local SVG mockups stored in `public/`.
-- Resume actions use Google Drive links defined in `src/App.jsx`.
-- The generated `dist/` folder is build output and should not be committed.
+- Email: `priyanshubisht.me@gmail.com`
+- GitHub: `https://github.com/Priyanshu-Bisht-me`
+- LinkedIn: `https://linkedin.com/in/priyanshudev01`
+- Resume: `https://drive.google.com/file/d/1wxYQR-yugSnXybftbYNK6Zkwpz8Y_gHH/view?usp=sharing`
