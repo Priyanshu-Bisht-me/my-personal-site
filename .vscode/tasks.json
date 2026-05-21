@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Open Portfolio in Default Browser",
+			"type": "shell",
+			"command": "start",
+			"args": [
+				"d:\\Portfolio 2\\index.html"
+			],
+			"group": "test",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
